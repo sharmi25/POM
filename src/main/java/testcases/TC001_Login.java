@@ -33,8 +33,8 @@ public class TC001_Login extends OpentapsWrappers{
 		.clickFindLeads()
 		.clickNameandID()
 		.enterFName(FirstName)
-		.clickFindLead()
-		.verifyDisplayText();
+		.clickFindLead();
+		//.verifyDisplayText();
 		
 		
 		
